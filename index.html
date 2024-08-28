@@ -4,20 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/estilo.css" />
-    <link rel="scrypt" href="./assets/js/scrypt.js" />
     <title>Document</title>
   </head>
   <body>
     <h1>Tarea 2 - JS</h1>
     <div class="parteUno">
       <h2>Parte 1</h2>
-      <hr />
+      <div class="imagenCentrada">
+        <img
+          id="miImagen"
+          src="./assets/img/imagen 1.png"
+          alt="pajaro fractal"
+        />
+      </div>
     </div>
-
-    <div class="partedos"></div>
-    <h2>Parte 2</h2>
     <hr />
-    <div class="partetres"></div>
-    <h2>Parte 3</h2>
+    <div class="parteDos">
+      <h2>Parte 2</h2>
+      <!--"Galería"-->
+      <div class="flex-container-items">
+        <div class="item">
+          <div class="flex-container-items2">
+            <div class="item-2">
+              <img src="./assets/img/g1.jpeg" alt="El Grito" />
+            </div>
+            <div class="item-2">
+              <input id="input-1" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="flex-container-items2">
+            <div class="item-2">
+              <img src="./assets/img/g2.jpeg" alt="La Gioconda" />
+            </div>
+            <div class="item-2">
+              <input id="input-2" type="text" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="flex-container-items2">
+            <div class="item-2">
+              <img src="./assets/img/g3.jpeg" alt="Frida Kahlo" />
+            </div>
+            <div class="item-2">
+              <input id="input-3" type="text" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--"Fin Galería"-->
+      <div class="opciones">
+        <p id="output"></p>
+        <button id="validar">Verificar</button>
+      </div>
+    </div>
+    <hr />
+    <div class="parteTres">
+      <h2>Parte 3</h2>
+      <div class="container">
+        <h1>Ingresa el password</h1>
+        <div class="select-group">
+          <select id="selectUno">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select id="selectDos">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select id="SelectTres">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <button id="buttonPassw">Ingresar</button>
+        <p id="outputDos"></p>
+      </div>
+    </div>
+    <script src="./assets/js/scrypt.js"></script>
   </body>
 </html>
